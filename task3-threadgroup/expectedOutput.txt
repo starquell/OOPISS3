@@ -1,0 +1,51 @@
+
+*****************************************************
+
+java.lang.ThreadGroup[name=Test group,maxpri=10]
+    Thread[Thread-0,5,Test group]
+    Thread[Thread-1,5,Test group]
+    Thread[Thread-2,5,Test group]
+    Thread[Thread-3,5,Test group]
+    java.lang.ThreadGroup[name=Test subgroup,maxpri=10]
+        Thread[Thread-4,5,Test subgroup]
+        Thread[Thread-5,5,Test subgroup]
+
+****************************************************
+*****************************************************
+
+java.lang.ThreadGroup[name=Test group,maxpri=10]
+    Thread[Thread-0,5,Test group]
+    Thread[Thread-1,5,Test group]
+    Thread[Thread-2,5,Test group]
+    Thread[Thread-3,5,Test group]
+    java.lang.ThreadGroup[name=Test subgroup,maxpri=10]
+        Thread[Thread-4,5,Test subgroup]
+        Thread[Thread-5,5,Test subgroup]
+
+****************************************************
+*****************************************************
+
+java.lang.ThreadGroup[name=Test group,maxpri=10]
+    Thread[Thread-0,5,Test group]
+    Thread[Thread-2,5,Test group]
+    Thread[Thread-3,5,Test group]
+    java.lang.ThreadGroup[name=Test subgroup,maxpri=10]
+        Thread[Thread-5,5,Test subgroup]
+
+****************************************************
+*****************************************************
+
+java.lang.ThreadGroup[name=Test group,maxpri=10]
+    Thread[Thread-3,5,Test group]
+    java.lang.ThreadGroup[name=Test subgroup,maxpri=10]
+        Thread[Thread-5,5,Test subgroup]
+
+****************************************************
+*****************************************************
+
+java.lang.ThreadGroup[name=Test group,maxpri=10]
+    Thread[Thread-3,5,Test group]
+    java.lang.ThreadGroup[name=Test subgroup,maxpri=10]
+
+****************************************************
+
