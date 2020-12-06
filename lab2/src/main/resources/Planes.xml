@@ -1,0 +1,35 @@
+<Planes>
+    <Plane>
+        <model>AH-64D Longbow</model>
+        <origin>USA</origin>
+        <chars>
+            <type>Attack</type>
+            <nplaces>2</nplaces>
+            <radar>true</radar>
+        </chars>
+        <params length="6.4" wigth="3" height="2"/>
+        <price>12200000</price>
+    </Plane>
+    <Plane>
+        <model>Mil Mi-28N</model>
+        <origin>Russia</origin>
+        <chars>
+            <type>Attack</type>
+            <nplaces>1</nplaces>
+            <radar>true</radar>
+        </chars>
+        <params length="8" wigth="3.8" height="2.3"/>
+        <price>21550000</price>
+    </Plane>
+    <Plane>
+        <model>Sikorsky UH-60 Black Hawk</model>
+        <origin>USA</origin>
+        <chars>
+            <type>Utility</type>
+            <nplaces>2</nplaces>
+            <radar>true</radar>
+        </chars>
+        <params length="7" wigth="3" height="3.75"/>
+        <price>13000500</price>
+    </Plane>
+</Planes>

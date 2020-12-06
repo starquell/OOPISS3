@@ -1,0 +1,35 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="Planes">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Plane" type="plane" maxOccurs="unbounded" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="plane">
+        <xs:sequence>
+            <xs:element name="model" type="xs:string"/>
+            <xs:element name="origin" type="xs:string"/>
+            <xs:element name="chars" type="charsType"/>
+            <xs:element name="params" type="paramsType"/>
+            <xs:element name="price" type="xs:integer"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="charsType">
+        <xs:sequence>
+            <xs:element name="type" type="xs:string"/>
+            <xs:element name="nplaces" type="xs:integer"/>
+            <xs:element name="radar" type="xs:boolean"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="paramsType">
+        <xs:attribute name="length" type="xs:decimal"/>
+        <xs:attribute name="wigth" type="xs:decimal"/>
+        <xs:attribute name="height" type="xs:decimal"/>
+    </xs:complexType>
+
+</xs:schema>
